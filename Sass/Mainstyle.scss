@@ -1,0 +1,205 @@
+@import "mixin";
+@import "variables";
+@import "help-class";
+
+body{
+@include bodystyle; 
+
+.nav {
+   @include nav;
+   a{
+    padding: 10px 50px;
+    color:nth($color,1);
+       }
+   }
+.button-1{
+    padding: 10px 50px;
+    border-radius: nth($border-radius,1);
+    color:nth($color,3);
+    background-color: nth($color,4)
+   }
+  .layout{
+position: $position;
+
+  } 
+.section-2{
+    background-image: url($background-image);
+    background-position: $background-position;
+    background-size:$background-size; 
+     min-height: 650px;
+     }
+     
+.section-2__text{
+    background-color:nth($color,2);
+    font-size: nth($font-size,3)
+  
+       }
+.section-3__blocks_pics--line{
+    margin: 10px;
+} 
+.section-3__button_show{
+  background-color: nth($color,3);
+  padding: 10px 30px;
+  border-radius: nth($border-radius,1);
+  color: nth($color,4);
+}
+.full{
+    background-color: nth($color,3);
+}
+.section-4__video{
+    padding: 70px 20px;
+}
+.section-4__text{
+    padding: 30px;
+}
+.section-4__text1{
+    font-size: nth($font-size,1);
+}
+.section-4__text2{
+    font-size: nth($font-size,2);
+}
+.section-4__text3{
+    font-size: nth($font-size,3);
+    color: nth($color,4);
+}
+.section-5__text{
+    font-size: nth($font-size,3);
+  }
+.section-5__progress-bar{
+    padding: 50px 0px;
+}
+.section-5__progress{
+    padding: 30px 0px;
+}
+.section-5__one{
+    padding: 13px 0px;
+}
+.section-5__company_paragraph{
+    padding: 40px 0px;
+}
+.section-5__progressbar{
+    background-color:nth($color,5)
+}
+.section5{
+    color:nth($color,3)
+}
+.section-6__blog-text{
+    padding: 50px;
+    font-size: nth($font-size,4);
+}
+.section-6__text{
+       color: nth($color,7);
+}
+.section6-background{
+    background-color: nth($color,6);
+}
+.section-7--text{
+    padding: 20px;
+}
+.section7-pictures{
+    padding: 90px 0px;
+}
+.section7paragraph {
+    font-size: nth($font-size,5);
+    color:nth($color,8);
+}
+.read{
+    font-size: nth($font-size,3);
+}
+.section-7-border{
+    border-bottom: nth($border-radius,2);
+    margin: 20px;
+}
+.section-7__button{
+    padding-bottom: 15px;
+    
+}
+.section-8__pics{
+    margin: 0px 10px;
+}
+.section_9_para{
+   background-color:nth($color,3);
+}
+.section-9_text {
+    color:nth($color,4);
+}
+.send{
+    margin-left:30px;
+    
+    
+}
+.section-9_button {
+    border-radius: nth($border-radius,1);
+background-color: #ffffff;
+height: 40px;
+font-size: nth($font-size,6);
+font-weight: 501;
+outline: none;;
+    }
+.input_text{
+    font-size: nth($font-size,3);
+font-style: italic;
+padding: 20px;
+border-radius: nth($border-radius,1);
+outline: none;
+height: 40px;
+}
+.input_lable{
+    font-size: nth($font-size,3);
+   padding: 20px;
+   outline: none;
+   height: 40px;
+   background-color: nth($color,9);
+   border:nth($border-radius,3);
+   color: nth($color,4);
+   border-radius: nth($border-radius,5);
+}
+.input_flild{
+    font-size: nth($font-size,3);
+   padding: 20px;
+   outline: none;
+      background-color: nth($color,9);
+   border:nth($border-radius,3);
+   color: nth($color,4);
+   border-radius: nth($border-radius,5);
+}
+.section_your{
+    color:#ffffff;
+}
+.layout:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    background-color:rgba(84, 140, 154, 0.5);
+}
+.mool_span{
+    color:nth($color,3);
+}
+.section-2_text{
+    color: nth($color,4);
+}
+.back{
+    background-color:nth($color,5);
+    color: nth($color,4);
+}
+.section-10__button{
+    background-color: nth($color,4);
+    padding: 10px 30px;
+    border-radius: nth($border-radius,1);
+    color: nth($color,2);
+}
+.last{
+    background-color: nth($color,10);
+    color: nth($color,4);
+}
+
+.icons_size{
+   background-color: nth($color,4);
+   color:nth($color,10);
+   border-radius: nth($border-radius,4);
+   margin: 10px;
+      }
+}

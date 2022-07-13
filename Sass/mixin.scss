@@ -1,0 +1,14 @@
+@mixin bodystyle{
+ padding: 0px;
+ margin:0px;
+ box-sizing: border-box;
+}
+@mixin nav{
+    align-items: center;
+    justify-content: center;
+}
+@mixin text-adjust{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
